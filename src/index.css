@@ -1,0 +1,81 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Great+Vibes&family=Montserrat:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.cdnfonts.com/css/perandory');
+@import url('https://fonts.cdnfonts.com/css/nexa-2');
+@import url('https://fonts.cdnfonts.com/css/perfumeria');
+@theme {
+  --color-primary: #5D6633;
+  --color-cream: #E8D9BD;
+  --color-accent: #B47042;
+  --color-dark-green: #303B0D;
+  --color-white: #FFFFFF;
+  --font-sans: "Nexa", "Montserrat", sans-serif;
+  --font-serif: "Perandory", "Playfair Display", serif;
+  --font-script: "Perfumerie Script Text", "Perfumerie Script", "Great Vibes", cursive;
+  --animate-fade-in-up: fade-in-up 0.8s ease-out forwards;
+}
+@keyframes fade-in-up {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@layer utilities {
+  .noise-overlay {
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)' opacity='0.08'/%3E%3C/svg%3E");
+    pointer-events: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 50;
+    mix-blend-mode: multiply;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-cream);
+  color: var(--color-dark-green);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-sans);
+  color: var(--color-dark-green);
+}
+
+.section-container {
+  @apply max-w-6xl mx-auto px-6 py-20 md:py-32;
+}
+
+.texto-circulado {
+  position: relative;
+  display: inline-block;
+}
+
+.texto-circulado::before {
+  content: '';
+  position: absolute;
+  top: -10px; 
+  bottom: -10px;
+  left: -20px;
+  right: -20px;
+  z-index: -1;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 60'%3E%3Cpath d='M25,45 C10,35 15,10 100,15 C185,20 190,45 100,45 C40,45 25,35 40,30' fill='none' stroke='%23E8DCC4' stroke-width='2.5' stroke-linecap='round'/%3E%3C/svg%3E");
+  background-size: 120% 150%;
+  background-repeat: no-repeat;
+  background-position: center;
+  pointer-events: none; 
+}
