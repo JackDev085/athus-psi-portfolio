@@ -1,8 +1,19 @@
 @import "tailwindcss";
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Great+Vibes&family=Montserrat:wght@300;400;500;600;700&display=swap');
-@import url('https://fonts.cdnfonts.com/css/perandory');
 @import url('https://fonts.cdnfonts.com/css/nexa-2');
-@import url('https://fonts.cdnfonts.com/css/perfumeria');
+
+@font-face {
+  font-family: 'ParfumerieScriptPro';
+  src: url('./assets/ParfumerieScriptPro.ttf') format('opentype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Perandory';
+  src: url('./assets/ParfumerieScriptPro.otf') format('opentype');
+  font-display: swap;
+}
+
 @theme {
   --color-primary: #5D6633;
   --color-cream: #E8D9BD;
@@ -11,7 +22,7 @@
   --color-white: #FFFFFF;
   --font-sans: "Nexa", "Montserrat", sans-serif;
   --font-serif: "Perandory", "Playfair Display", serif;
-  --font-script: "Perfumerie Script Text", "Perfumerie Script", "Great Vibes", cursive;
+  --font-script: "ParfumerieScriptPro", "Great Vibes", cursive;
   --animate-fade-in-up: fade-in-up 0.8s ease-out forwards;
 }
 @keyframes fade-in-up {
@@ -57,7 +68,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .section-container {
-  @apply max-w-6xl mx-auto px-6 py-20 md:py-32;
+  @apply max-w-6xl mx-auto px-4 sm:px-6 py-16 sm:py-20 md:py-32;
 }
 
 .texto-circulado {
