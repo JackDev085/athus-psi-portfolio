@@ -48,7 +48,7 @@ export default function Hero() {
               (window.location.href =
                 "https://api.whatsapp.com/send/?phone=5585997581798&text&type=phone_number&app_absent=0&utm_source=ig")
             }
-            className="px-6 py-3 sm:px-8 sm:py-4 bg-accent hover:bg-opacity-90 shadow-xl shadow-accent/30 text-white font-sans font-semibold tracking-wide uppercase rounded-none transition-all relative overflow-hidden group cursor-pointer text-sm sm:text-base"
+            className="px-6 py-3 sm:px-8 sm:py-4 bg-accent hover:bg-opacity-90 shadow-xl shadow-accent/30 text-white font-sans font-semibold tracking-wide uppercase rounded-none transition-all relative overflow-hidden group cursor-pointer text-sm sm:text-base hover:bg-accent/90 border border-transparent hover:border-primary/30"
           >
             <span className="relative z-10">Marque a sua consulta</span>
             <div className="absolute inset-0 -translate-x-full bg-white/20 skew-x-12 group-hover:animate-[shimmer_1s_forwards]"></div>

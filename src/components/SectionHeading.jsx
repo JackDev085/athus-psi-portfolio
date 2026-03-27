@@ -9,11 +9,11 @@ export default function SectionHeading({
 
   return (
     <div className={`${isCenter ? "text-center" : "text-left"} ${className}`}>
-      <h2 className="text-3xl sm:text-4xl md:text-5xl xl:text-6xl uppercase font-serif font-normal text-dark-green tracking-[-0.02em] leading-[0.95] mb-4">
-        <span className="font-script text-[1.2em] sm:text-[1.3em] text-primary leading-[0.65] mr-1 -mb-1 inline-block align-baseline">
+      <h2 className="text-3xl sm:text-4xl uppercase md:text-5xl xl:text-6xl font-serif font-normal text-dark-green tracking-[-0.02em] leading-[0.95] mb-4">
+        <span className="font-script font-normal text-[1.3em] sm:text-[1.4em] text-primary leading-[0.65] mr-1 -mb-1 inline-block align-baseline">
           {letter}
         </span>
-        <span className="inline-block align-baseline">{title}</span>
+        <span className="inline-block perandory align-baseline">{title}</span>
       </h2>
 
       <div

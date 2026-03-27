@@ -4,7 +4,10 @@ import SectionHeading from "./SectionHeading";
 
 export default function About() {
   return (
-    <section id="about" className="bg-cream py-16 sm:py-20 md:py-28 xl:py-32 relative overflow-hidden">
+    <section
+      id="about"
+      className="bg-cream py-16 sm:py-20 md:py-28 xl:py-32 relative overflow-hidden"
+    >
       <div className="max-w-6xl mx-auto px-4 sm:px-6 relative z-10">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -47,7 +50,8 @@ export default function About() {
                 </div>
 
                 <span className="font-medium text-dark-green">
-                  Graduado pela universidade Uniateneu
+                  Graduado pela universidade <br />
+                  Uniateneu
                 </span>
               </li>
               <li className="flex items-start sm:items-center gap-4">
@@ -55,7 +59,7 @@ export default function About() {
                   <BookOpen className="w-5 h-5 sm:w-6 sm:h-6" />
                 </div>
                 <span className="font-medium text-dark-green">
-                  Psicólogo com atuação clínica e esportiva
+                  Psicólogo com atuação <br /> clínica e esportiva
                 </span>
               </li>
               <li className="flex items-start sm:items-center gap-4">
@@ -63,7 +67,7 @@ export default function About() {
                   <NotepadText className="w-5 h-5 sm:w-6 sm:h-6" />
                 </div>
                 <span className="font-medium text-dark-green">
-                  Atendimentos online e presenciais
+                  Atendimentos online <br />e presenciais
                 </span>
               </li>
               <li className="flex items-start sm:items-center gap-4">
@@ -71,7 +75,8 @@ export default function About() {
                   <Target className="w-5 h-5 sm:w-6 sm:h-6" />
                 </div>
                 <span className="font-medium text-dark-green">
-                  Abordagem centrada na pessoa
+                  Abordagem centrada <br />
+                  na pessoa
                 </span>
               </li>
             </ul>
