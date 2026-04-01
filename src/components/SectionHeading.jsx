@@ -7,13 +7,21 @@ export default function SectionHeading({
 }) {
   const isCenter = align === "center";
 
+  // Split title into first word and rest so we can join the letter with the first word
+  const words = title.trim().split(/\s+/);
+  const firstWord = words[0];
+  const restWords = words.slice(1).join(" ");
+
   return (
     <div className={`${isCenter ? "text-center" : "text-left"} ${className}`}>
-      <h2 className="text-3xl sm:text-4xl uppercase md:text-5xl xl:text-6xl font-serif font-normal text-dark-green tracking-[-0.02em] leading-[0.95] mb-4">
-        <span className="font-script font-normal text-[1.3em] sm:text-[1.4em] text-primary leading-[0.65] mr-1 -mb-1 inline-block align-baseline">
-          {letter}
+      <h2 className="text-3xl sm:text-4xl uppercase md:text-5xl xl:text-6xl font-serif font-normal text-dark-green tracking-[-0.02em] leading-[0.95] mb-4 perandory">
+        <span style={{ whiteSpace: "nowrap", display: "inline" }}>
+          <span className="font-script font-normal text-[1.3em] sm:text-[1.4em] text-primary leading-[0.65] align-baseline">
+            {letter}
+          </span>
+          {firstWord}
         </span>
-        <span className="inline-block perandory align-baseline">{title}</span>
+        {restWords ? ` ${restWords}` : ""}
       </h2>
 
       <div

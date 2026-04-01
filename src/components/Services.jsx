@@ -38,9 +38,9 @@ export default function Services() {
           className="text-center mb-16"
         >
           <SectionHeading
-            letter="M"
-            title="etodologias"
-            subtitle="Abordagens baseadas em evidências para ajudar você a superar desafios e viver com mais leveza e resiliência."
+            letter="C"
+            title="omo Posso Te Ajudar"
+            subtitle="Um espaço de escuta genuína, onde você pode ser quem é e encontrar seus próprios caminhos."
           />
         </motion.div>
 

@@ -4,22 +4,16 @@ import {
   Instagram,
   Linkedin,
   FileText,
-  Phone,
+  MessageCircleMore,
 } from "lucide-react";
 import SectionHeading from "./SectionHeading";
 
 const links = [
   {
     icon: <Instagram className="w-6 h-6" />,
-    title: "Instagram Profissional",
+    title: "Acompanhar conteúdos",
     url: "https://www.instagram.com/athus.psi/",
-    desc: "Dicas diárias sobre saúde mental e pequenas reflexões.",
-  },
-  {
-    icon: <Linkedin className="w-6 h-6" />,
-    title: "LinkedIn",
-    url: "#",
-    desc: "Conteúdos sobre clínica e psicologia esportiva.",
+    desc: "Compartilhando caminhos e aprendizados",
   },
   // {
   //   icon: <FileText className="w-6 h-6" />,
@@ -28,8 +22,8 @@ const links = [
   //   desc: "Material prático para o enfrentamento e regulação.",
   // },
   {
-    icon: <Phone className="w-6 h-6" />,
-    title: "Whatsapp",
+    icon: <MessageCircleMore className="w-6 h-6" />,
+    title: "Dê o primeiro passo",
     url: "https://api.whatsapp.com/send/?phone=5585997581798&text&type=phone_number&app_absent=0&utm_source=ig",
     desc: "Contato e agendamento.",
   },
@@ -52,7 +46,7 @@ export default function Links() {
           <SectionHeading
             letter="L"
             title="inks úteis"
-            subtitle="Materiais extras, minhas redes sociais e contato."
+            subtitle="Um passo de cada vez — comece aqui."
           />
         </motion.div>
 

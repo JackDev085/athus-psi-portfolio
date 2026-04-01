@@ -92,7 +92,7 @@ export default function About() {
             {/* Tactical border frame */}
             <div className="aspect-[4/4] sm:aspect-[4/5] overflow-hidden relative z-10 p-1.5 sm:p-2 bg-cream border-2 border-primary/30">
               <img
-                src="https://images.unsplash.com/photo-1544027993-37dbfe43562a?auto=format&fit=crop&q=80&w=800"
+                src="image.png"
                 // src="https://images.unsplash.com/photo-1544027993-37dbfe43562a?auto=format&fit=crop&q=80&w=800"
                 alt="Ambiente do Consultório"
                 className="w-full h-full object-cover filter contrast-110 grayscale-[0.2]"

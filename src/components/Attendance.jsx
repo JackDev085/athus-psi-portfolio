@@ -74,7 +74,7 @@ export default function Attendance() {
             className="overflow-hidden shadow-2xl relative shadow-dark-green/5 border-2 sm:border-4 border-cream p-1.5 sm:p-2 bg-white"
           >
             <img
-              src="https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&q=80&w=800"
+              src="escritorio1.jpeg"
               alt="Ambiente calmo de terapia"
               className="w-full h-full object-cover aspect-[3/4] sm:aspect-square md:aspect-[4/5] filter contrast-110 grayscale-[0.2]"
             />
