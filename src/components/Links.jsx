@@ -9,7 +9,7 @@ import {
 import SectionHeading from "./SectionHeading";
 
 const message =
-  "Olá, Athus! Vim pelo seu site e gostaria de saber sobre como você atua.";
+  "Olá, Athus! Vim pelo seu site e gostaria de entender mais, como você atua.";
 const number = "5585997581798";
 const links = [
   {
