@@ -79,7 +79,7 @@ export default function Attendance() {
               className="w-full h-full object-cover aspect-[3/4] sm:aspect-square md:aspect-[4/5] filter contrast-110 grayscale-[0.2]"
             />
             {/* Overlay Gradient */}
-            <div className="absolute inset-0 bg-gradient-to-t from-dark-green/40 to-transparent pointer-events-none mix-blend-multiply"></div>
+            <div className="absolute inset-0 bg-linear-to-t from-dark-green/40 to-transparent pointer-events-none mix-blend-multiply"></div>
           </motion.div>
         </div>
       </div>

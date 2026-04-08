@@ -8,6 +8,9 @@ import {
 } from "lucide-react";
 import SectionHeading from "./SectionHeading";
 
+const message =
+  "Olá, Athus! Vim pelo seu site e gostaria de saber sobre como você atua.";
+const number = "5585997581798";
 const links = [
   {
     icon: <Instagram className="w-6 h-6" />,
@@ -24,7 +27,7 @@ const links = [
   {
     icon: <MessageCircleMore className="w-6 h-6" />,
     title: "Dê o primeiro passo",
-    url: "https://api.whatsapp.com/send/?phone=5585997581798&text&type=phone_number&app_absent=0&utm_source=ig",
+    url: `https://api.whatsapp.com/send/?phone=${number}&text=${encodeURIComponent(message)}`,
     desc: "Contato e agendamento.",
   },
 ];

@@ -6,6 +6,10 @@ export default function Hero() {
     document.getElementById("about")?.scrollIntoView({ behavior: "smooth" });
   };
 
+  const message =
+    "Olá, Athus! Vim pelo seu site e gostaria de agendar uma consulta.";
+  const number = "5585997581798";
+
   return (
     <section className="min-h-[100dvh] flex flex-col justify-center relative overflow-hidden bg-cream pt-16 sm:pt-20 xl:pt-0">
       {/* Background Blur */}
@@ -45,8 +49,7 @@ export default function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.6 }}
             onClick={() =>
-              (window.location.href =
-                "https://api.whatsapp.com/send/?phone=5585997581798&text&type=phone_number&app_absent=0&utm_source=ig")
+              (window.location.href = `https://api.whatsapp.com/send/?phone=${number}&text=${encodeURIComponent(message)}`)
             }
             className="px-6 py-3 sm:px-8 sm:py-4 bg-accent hover:bg-opacity-90 shadow-xl shadow-accent/30 text-white font-sans font-semibold tracking-wide uppercase rounded-none transition-all relative overflow-hidden group cursor-pointer text-sm sm:text-base hover:bg-accent/90 border border-transparent hover:border-primary/30"
           >
