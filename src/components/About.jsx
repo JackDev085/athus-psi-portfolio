@@ -30,12 +30,14 @@ export default function About() {
             <p>
               Sou{" "}
               <strong className="font-bold text-dark-green">
-                Athus Ramalho,{" "}
+                Athus Ramalho, <br />
               </strong>
-              psicólogo Clínico e do Esporte | CRP 11/24340. Meu trabalho é
-              guiado pela escuta, presença e autenticidade. Acredito em um
-              cuidado que não tenta te consertar, mas te ajudar a se compreender
-              — com respeito ao seu tempo, à sua história e ao que você vive.
+              Psicólogo Clínico e do Esporte | CRP 11/24340. <br />
+              <br />
+              Meu trabalho é guiado pela escuta, presença e autenticidade.
+              Acredito em um cuidado que não tenta te consertar, mas te ajudar a
+              se compreender — com respeito ao seu tempo, à sua história e ao
+              que você vive.
             </p>
             <p>
               Este é um espaço onde você pode ser quem é, sem precisar se
