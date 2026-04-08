@@ -40,8 +40,8 @@ export default function Hero() {
             transition={{ duration: 0.8, delay: 0.4 }}
             className="text-lg sm:text-xl md:text-2xl text-dark-green/80 mb-6 sm:mb-10 max-w-xl mx-auto xl:mx-0 font-sans font-light leading-relaxed"
           >
-            Psicólogo clínico e do esporte, atleta, performance, bem-estar e
-            saúde mental, Autoconhecimento & Equilíbrio.
+            Psicólogo Clínico e do Esporte. Um espaço para autoconhecimento,
+            autenticidade e desenvolvimento da sua melhor performance.
           </motion.p>
 
           <motion.button
@@ -53,7 +53,7 @@ export default function Hero() {
             }
             className="px-6 py-3 sm:px-8 sm:py-4 bg-accent hover:bg-opacity-90 shadow-xl shadow-accent/30 text-white font-sans font-semibold tracking-wide uppercase rounded-none transition-all relative overflow-hidden group cursor-pointer text-sm sm:text-base hover:bg-accent/90 border border-transparent hover:border-primary/30"
           >
-            <span className="relative z-10">Marque a sua consulta</span>
+            <span className="relative z-10">Agendar atendimento</span>
             <div className="absolute inset-0 -translate-x-full bg-white/20 skew-x-12 group-hover:animate-[shimmer_1s_forwards]"></div>
           </motion.button>
         </div>

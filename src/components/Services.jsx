@@ -7,19 +7,19 @@ const services = [
     icon: <User className="w-8 h-8" />,
     title: "Psicoterapia & Cuidado Emocional",
     description:
-      "Psicoterapia individual. Acompanhamento psicológico contínuo. Desenvolvimento de autoconhecimento e equilíbrio emocional",
+      "Psicoterapia individual e acompanhamento psicológico contínuo, voltados ao autoconhecimento e ao cuidado com a saúde emocional.",
   },
   {
     icon: <Bike className="w-8 h-8" />,
     title: "Psicologia do Esporte & Performance",
     description:
-      "Performance. Acompanhamento psicológico para atletas. Avaliação psicológica no contexto esportivo e desenvolvimento de performance com consciência emocional",
+      "Acompanhamento psicológico para atletas e pessoas que buscam desenvolver perfomance com consciência emocional, dentro e fora do contexto esportivo.",
   },
   {
     icon: <HeartPulse className="w-8 h-8" />,
     title: "Intervenções & Desenvolvimento Coletivo",
     description:
-      "Palestras e treinamentos em grupos de intervenção terapêutica. Projetos voltados à saúde mental e desenvolvimento humano",
+      "Palestras e treinamentos em grupos de intervenção terapêutica. Projetos voltados à saúde mental e desenvolvimento humano.",
   },
 ];
 

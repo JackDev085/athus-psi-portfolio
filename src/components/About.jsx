@@ -30,19 +30,23 @@ export default function About() {
             <p>
               Sou{" "}
               <strong className="font-bold text-dark-green">
-                Athus Ramalho.{" "}
+                Athus Ramalho,{" "}
               </strong>
-              Minha prática é guiada pela escuta, presença e autenticidade.
-              Acredito em um cuidado que não tenta te consertar, mas te ajudar a
-              se compreender — com respeito ao seu tempo, à sua história e ao
-              que você vive.
+              psicólogo Clínico e do Esporte | CRP 11/24340. Meu trabalho é
+              guiado pela escuta, presença e autenticidade. Acredito em um
+              cuidado que não tenta te consertar, mas te ajudar a se compreender
+              — com respeito ao seu tempo, à sua história e ao que você vive.
             </p>
             <p>
               Este é um espaço onde você pode ser quem é, sem precisar se
               explicar o tempo todo. Um espaço para se entender, se posicionar e
               viver com mais clareza, dentro e fora do jogo.
             </p>
-            <p>Sem julgamentos. Com presença, responsabilidade e processo.</p>
+
+            <p className="font-bold">
+              Atendimentos online para todo Brasil e presenciais em Fortaleza.
+              Psicoterapia para adolescentes, adultos e atletas.
+            </p>
             <ul className="space-y-4 sm:space-y-5 pt-6 sm:pt-8 mt-2 border-t border-dark-green/10">
               <li className="flex items-start sm:items-center gap-4">
                 <div className="bg-primary/10 p-3 rounded-lg text-primary shadow-sm border border-primary/20 shrink-0">

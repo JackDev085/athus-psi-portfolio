@@ -79,7 +79,7 @@ export default function Location() {
                     E-mail
                   </h4>
                   <p className="font-sans text-dark-green/70 text-sm sm:text-base break-all sm:break-normal">
-                    athus.psi@gmail.com
+                    athusramalho321@gmail.com
                   </p>
                 </div>
               </div>
